@@ -1,13 +1,41 @@
 /*font-family: 'Abel', sans-serif;
 font-family: 'Exo 2', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Rampart One', cursive;
 */
 
 body {
   font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+}
+
+h1 {
+font-family: 'Montserrat', sans-serif;
+background-color: aquamarine;
+padding: .5em;
+margin: 0px;
+}
+
+h2 {
+  background-color:bisque;
+  font-family: 'Rampart One', cursive;
+  padding: .5em;
+  margin: 0px;
+}
+
+h3 {
+font-family: 'Exo 2', sans-serif;
+background-color:burlywood;
+padding: .5em;
+margin: 0px;
+box-sizing: border-box;
 }
 
 label {
   display: block;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
