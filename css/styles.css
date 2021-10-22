@@ -1,3 +1,13 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Rampart One', cursive;
+*/
+
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
 label {
   display: block;
 }
