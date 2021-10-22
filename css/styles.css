@@ -6,30 +6,47 @@ font-family: 'Rampart One', cursive;
 */
 
 body {
+  background-image: url(/img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Merriweather Sans', sans-serif;
   text-align: center;
+  
 }
+
+.container {
+  margin-top: 2em;
+  padding: 0px;
+}
+
+/* BUG: PADDING AND MARGIN IS NOT LINED UP*/
 
 h1 {
 font-family: 'Montserrat', sans-serif;
-background-color: aquamarine;
+background-color: rgb(127, 255, 212, .9);
 padding: .5em;
 margin: 0px;
+border-radius: .5em;
+border: solid black thin;
 }
 
 h2 {
-  background-color:bisque;
+  background-color:rgb(255, 228, 196, .85);
   font-family: 'Rampart One', cursive;
   padding: .5em;
   margin: 0px;
+  border-radius: .5em;
+  border: solid black thin;
 }
 
 h3 {
 font-family: 'Exo 2', sans-serif;
-background-color:burlywood;
-padding: .5em;
+background-color:rgb(222, 184, 135, .85);
+padding: 0em;
 margin: 0px;
 box-sizing: border-box;
+border-radius: .5em;
+border: solid black thin;
 }
 
 label {
@@ -38,4 +55,19 @@ label {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  background-color: rgba(189, 255, 233, 0.9);
+  color: rgb(45, 34, 22);
+
+  border-radius: .5em;
+  border: solid black thin;
+}
+
+.col-lg-2, .col-md-4 {
+  padding:0px;
+}
+
+.btn {
+  font-size: 2em;
+  border-radius: 1em;
+  border: solid black;
 }
