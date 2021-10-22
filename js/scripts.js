@@ -6,8 +6,12 @@ let jslang = 0;
 // value=swift, python, javascript
 // add +1 every time a radio box is checked. 
 function plusOne(x) {
-  if (){}
-  else if (){}
+  if (x === "swift"){
+    return swiftlang += 1;
+  } else if (x === "python"){
+    return pythonglang +=1;
+  } else if (x === "jslang"){
+  return jslang +=1;
 }
 
 //compare with total points and return largest
