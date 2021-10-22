@@ -19,9 +19,7 @@ body {
   padding: 0px;
 }
 
-/* BUG: PADDING AND MARGIN IS NOT LINED UP*/
-
-h1 {
+h1 { /*WHICH PROLANG START WITH?*/
 font-family: 'Montserrat', sans-serif;
 background-color: rgb(127, 255, 212, .9);
 padding: .5em;
@@ -30,7 +28,7 @@ border-radius: .5em;
 border: solid black thin;
 }
 
-h2 {
+h2 { /*ANSWER AND SUGGEST*/
   background-color:rgb(255, 228, 196, .85);
   font-family: 'Rampart One', cursive;
   padding: .5em;
@@ -39,7 +37,9 @@ h2 {
   border: solid black thin;
 }
 
-h3 {
+/* BUG: PADDING AND MARGIN IS NOT LINED UP*/
+
+h3 { /*QUESTIONS*/
 font-family: 'Exo 2', sans-serif;
 background-color:rgb(222, 184, 135, .85);
 padding: 0em;
@@ -49,7 +49,7 @@ border-radius: .5em;
 border: solid black thin;
 }
 
-label {
+label { /*RADIOBOXES*/
   display: block;
   text-align: center;
   padding: 0px;
@@ -57,7 +57,6 @@ label {
   box-sizing: border-box;
   background-color: rgba(189, 255, 233, 0.9);
   color: rgb(45, 34, 22);
-
   border-radius: .5em;
   border: solid black thin;
 }
