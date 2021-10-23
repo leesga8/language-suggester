@@ -39,7 +39,9 @@ $(document).ready(function() {
     plusOne($("input:radio[name=mile]:checked").val());
     plusOne($("input:radio[name=fruit]:checked").val());
     plusOne($("input:radio[name=band]:checked").val());
-    plusOne($("#final").text(totalPoint("animal", "place", "mile", "fruit", "band", "city")));
+    plusOne($("input:radio[name=city]:checked").val());
+   
+    $("#final").text(totalPoint(swift, python, js));
     animal = 0;
     place = 0; 
     mile = 0;
