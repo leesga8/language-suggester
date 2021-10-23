@@ -5,12 +5,12 @@ let js = 0;
 
 // value=swift, python, javascript
 // add +1 every time a radio box is checked. 
-function plusOne(x) {
-  if (x === "swift"){
+function plusOne(element) {
+  if (element === "swift"){
     return swift += 1; 
-  } else if (x === "python"){
+  } else if (element === "python"){
     return python +=1;
-  } else if (x === "javascript"){
+  } else if (element === "javascript"){
   return js +=1;
   }
 }
@@ -35,11 +35,11 @@ $(document).ready(function() {
   $('#survey').submit(function(event) {
     event.preventDefault();
     plusOne($("input:radio[name=animal]:checked").val());
-    // $("input:radio[name=place]:checked").val();
-    // $("input:radio[name=mile]:checked").val();
-    // $("input:radio[name=fruit]:checked").val();
-    // $("input:radio[name=band]:checked").val();
-    $("#final").text(totalPoint("animal", "place", "mile", "fruit", "band", "city"));
+    plusOne($("input:radio[name=place]:checked").val());
+    plusOne($("input:radio[name=mile]:checked").val());
+    plusOne($("input:radio[name=fruit]:checked").val());
+    plusOne($("input:radio[name=band]:checked").val());
+    plusOne($("#final").text(totalPoint("animal", "place", "mile", "fruit", "band", "city")));
     animal = 0;
     place = 0; 
     mile = 0;
